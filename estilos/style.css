@@ -1,0 +1,187 @@
+/*colores */
+/*#F6F1F1
+#AFD3E2
+#19A7CE
+#146C94  
+font-family: 'Pathway Extreme', sans-serif;*/
+/*font*/
+@import url('https://fonts.googleapis.com/css2? family= Pathway+Extreme:ital@1 & display=swap');
+
+
+
+html{
+    font-size: 62.5%;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+/*header*/
+header{
+    background-color: darkblue;
+}
+
+
+header img{
+    width: 150aspx;
+}
+
+
+header ul{
+    list-style: none;
+}
+header ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+}
+
+/*banner index*/
+h1{
+    color: black;
+}
+.banner{
+    background-image: url(../imagenes/cerveceriaymalteria.jpg);
+    height: 90px;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    font-size: 2.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.descripcion{
+    text-align: center;
+    font-size: 1.5rem;
+    color: blue;
+}
+
+/* html historia*/
+
+.historia{
+    font-size: 3.7rem;
+    text-align: left;
+    background-image: url(../imagenes/cerveceriaymalteria.jpg);
+    height: 100px;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.descripcion2{
+    text-align: left;
+    font-size: 1.7rem;
+    color: black;
+    display: grid;
+}
+
+.relleno{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: blue;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px 100px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7px;
+}
+
+.grids-item{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2rem;
+    background-color: royalblue;
+}
+/*contacto*/
+.msj{
+    font-size: 2rem;
+    color: black;
+}
+
+
+/*nuestrasmarcas*/
+
+
+.nuestrasmarcas{
+    font-size: 3.7rem;
+    text-align: left;
+    background-image: url(../imagenes/cerveceriaymalteria.jpg);
+    height: 100px;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.descripcion3{
+    text-align: left;
+    font-size: 1.7rem;
+    color: black;
+    display: grid;
+}
+
+.card-text{
+    color: darkblue;
+}
+
+.card{
+    display: flex;
+    
+}
+
+@media screen {
+    .centrarcards{
+        display: block;
+}
+
+}
+
+
+
+
+
+/*quehacemos*/
+
+.quehacemos{
+    font-size: 3.7rem;
+    text-align: left;
+    background-image: url(../imagenes/cerveceriaymalteria.jpg);
+    height: 100px;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.quehacemos2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: blue;
+}
+
+
+
+
+
+/*footer*/
+footer{
+    color: black;
+}
+
+footer img{
+    width: 100px;
+}
+
+footer p{
+    font-size: 2rem;
+}
+
